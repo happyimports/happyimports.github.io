@@ -119,7 +119,8 @@ a:focus {
 }
 
 .navbar-brand {
-  margin: 15px 0;
+  margin: auto;
+  display: block;
   padding: 0;
 }
 
@@ -133,11 +134,9 @@ a:focus {
 }
 
 .navbar-brand img {
-  max-width: 45%;
-  max-height: 45%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
 }
 
 .custom_nav-container .nav_search-btn {
